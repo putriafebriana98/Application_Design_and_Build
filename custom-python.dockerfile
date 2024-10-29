@@ -6,7 +6,7 @@ LABEL version="1.0.0"
 LABEL maintainer="putriafebriana@gmail.com"
 
 # Add python code
-ADD create_pyramind.py /
+ADD create_love.py /
 
 # Execute python script
-CMD ["python3", "./create_pyramind.py"]
+CMD ["python3", "./create_love.py"]
